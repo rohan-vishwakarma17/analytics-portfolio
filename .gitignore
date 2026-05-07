@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual environment
+venv/
+
+# Data files (don't commit large CSVs to GitHub)
+**/data/raw/*.csv
+**/data/processed/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Secrets — NEVER commit this
+.env
+
+# Editor settings
+.vscode/
